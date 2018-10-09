@@ -1,0 +1,83 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: "Avenir","Monserrat"
+/*	background-image: url("wallpaper2you_561869.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+}
+
+.square{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 20px;
+	transition: background 0.6s;
+}
+
+#container{
+	
+	max-width: 555px;
+	/*margin-top: 200px;*/
+	margin: 50px auto;
+
+}
+
+
+h1{
+	margin: 0;
+	/*background-color: white;
+	border-radius: 30px;*/
+	font-weight: normal;
+	text-transform: uppercase;
+	/*height: 100px;*/
+	line-height: 1.1;
+	padding: 20px 0;
+	color: white;
+	text-align: center;
+	background-color: steelblue;
+
+}
+#colorDisplay{
+	font-size: 200%;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+}
+
+
+#stripe{
+
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected{
+	color: white;
+	background-color: steelblue;
+	transition: 
+}
+
+button {
+	border : none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 600;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit; 
+	transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background-color: steelblue;
+}
